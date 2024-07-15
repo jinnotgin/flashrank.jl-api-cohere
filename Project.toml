@@ -1,0 +1,5 @@
+[deps]
+FlashRank = "22cc3f58-1757-4700-bb45-2032706e5a8d"
+Genie = "c43c736e-a2d1-11e8-161f-af95117fbd1e"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
