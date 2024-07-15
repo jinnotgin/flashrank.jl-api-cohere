@@ -12,7 +12,10 @@ logger = SimpleLogger(stdout, Logging.Info)
 global_logger(logger)
 
 # Initialize the ranker
-const ranker = RankerModel(:mini12) # ms-marco-MiniLM-L-12-v2 (alias :mini or mini12)
+const ranker = RankerModel() # (default) ms-marco-TinyBERT-L-2-v2 (alias :tiny)
+# const ranker = RankerModel(:mini4) # ms-marco-MiniLM-L-4-v2 ONNX (alias :mini4)
+# const ranker = RankerModel(:mini6) # ms-marco-MiniLM-L-6-v2 ONNX (alias :mini6)
+# const ranker = RankerModel(:mini12) # ms-marco-MiniLM-L-12-v2 (alias :mini or mini12)
 
 # Define the request and response structures
 struct RankRequest
